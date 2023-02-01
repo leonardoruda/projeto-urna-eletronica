@@ -187,7 +187,7 @@ li {
 
 @media (max-width: 880px) {
     .urna, .teclado {
-        margin-top: -30px;
+        margin-top: -20px;
         flex-direction: column;
         max-width: 100%;
     }
