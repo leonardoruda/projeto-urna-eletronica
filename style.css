@@ -186,25 +186,25 @@ li {
 }
 
 @media (max-width: 880px) {
-    .urna {
+    .urna, .teclado {
+        margin-top: -30px;
         flex-direction: column;
+        max-width: 100%;
     }
     .teclado {
         margin: 0;
-        width: 100%;
+    }
+    .lista ol ul {
+        padding: 10px;
+    }
+    .lista ol {
+        margin-left: -40px;
     }
 }
 @media (max-width: 400px) {
     .urna, .tela, .teclado {
-        max-width: 390px;
+        width: 100%;
         min-width: 350px;
         padding: 5px;
-        padding-left: 5px;
-    }
-    .lista {
-        width: fit-content;
-    }
-    .lista ol {
-        padding-left: 0;
     }
 }
